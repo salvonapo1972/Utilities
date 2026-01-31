@@ -62,7 +62,7 @@ Output log: ./spider_logs/example.com_20260131_143022.log
 [wget spider output...]
 
 Spider completed. Log saved to: ./spider_logs/example.com_20260131_143022.log
-Broken links report saved to: ./spider_logs/brokenlinks_20260131_143022.html
+Broken links report saved to: ./spider_logs/brokenlinks_example.com_20260131_143022.html
 ```
 
 ## Notes
@@ -75,3 +75,4 @@ Broken links report saved to: ./spider_logs/brokenlinks_20260131_143022.html
 - **"wget: command not found"**: Ensure wget is in the same directory or in your system PATH
 - **Empty broken links report**: The website may not have broken links, or wget may not have detected them
 - **Permission denied**: Make the script executable with `chmod +x 404NotFound.sh`
+
