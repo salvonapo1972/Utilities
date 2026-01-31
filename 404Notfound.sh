@@ -40,7 +40,7 @@ echo "Spider completed. Log saved to: $log_file"
 broken_links_section=$(grep -A 1000 'broken links.' $log_file)
 
 if [ -n "$broken_links_section" ]; then
-    output_file="$log_dir/brokenlinks_$timestamp.html"
+    output_file="$log_dir/brokenlinks_${domain}_$timestamp.html"
 
     echo "<table border=\"2\">" >> "$output_file"
     echo "<tr><th>Referrer</th>" >> "$output_file"
